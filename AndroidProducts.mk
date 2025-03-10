@@ -19,4 +19,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_m1721.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_mido-eng
+    twrp_m1721-eng
