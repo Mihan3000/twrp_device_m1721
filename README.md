@@ -20,4 +20,4 @@
 
 ## Device Picture
 
-![M6 Note](http://i01.appmifile.com/webfile/globalimg/7/537557F3-A4F1-2490-E9D3-138B2A11DBF6.png "M6 Note")
+![M6 Note](https://static.onlinetrade.ru/img/items/b/smartfon_meizu_m6_note_16gb_black_743603_1.jpg "Meizu M6 Note")
