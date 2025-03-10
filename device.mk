@@ -42,3 +42,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
     ro.bootimage.build.date.utc \
     ro.build.date.utc
+
+# Vibrator
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/proprietary/vibrator/system/,$(TARGET_COPY_OUT_RECOVERY)/root/system/)
