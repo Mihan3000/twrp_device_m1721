@@ -16,9 +16,9 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := m1721
 PRODUCT_NAME := twrp_m1721
-PRODUCT_BRAND := Meizu 
-PRODUCT_MODEL := M6 Note 
-PRODUCT_MANUFACTURER := Meizu 
+PRODUCT_BRAND := Meizu
+PRODUCT_MODEL := M6 Note
+PRODUCT_MANUFACTURER := Meizu
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/meizu/m1721/device.mk)
