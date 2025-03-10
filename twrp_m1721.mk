@@ -4,7 +4,7 @@
 PRODUCT_PLATFORM := sdm450
 
 # Release name
-PRODUCT_RELEASE_NAME := mido
+PRODUCT_RELEASE_NAME := m1721
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -14,11 +14,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := mido
-PRODUCT_NAME := twrp_mido
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Note 4
-PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_DEVICE := m1721
+PRODUCT_NAME := twrp_m1721
+PRODUCT_BRAND := Meizu 
+PRODUCT_MODEL := M6 Note 
+PRODUCT_MANUFACTURER := Meizu 
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/xiaomi/mido/device.mk)
+$(call inherit-product, device/meizu/m1721/device.mk)
